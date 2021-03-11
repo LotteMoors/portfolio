@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/",
+  "homepage": "https://lottemoors.github.io/portfolio/",
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.2",
@@ -23,7 +23,7 @@
     "redux-thunk": "^2.3.0",
     "styled-components": "^5.2.1"
   },
-  "scripts": {    
+  "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

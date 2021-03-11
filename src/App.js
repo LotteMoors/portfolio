@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import { HashRouter, Switch, Route} from "react-router-dom";
 
 
 import Home from "./views/Home";
@@ -12,7 +12,7 @@ const App = () => {
 
   return (
     
-      <Router>
+      <HashRouter basename={process.env.PUBLIC_URL}> 
         
          <Switch>
             <Route path="/" exact component={Home} />            
@@ -21,7 +21,7 @@ const App = () => {
             <Route path="/Contact" component={Contact} />
           </Switch>      
 
-      </Router>
+      </HashRouter>
     
   );
 };
