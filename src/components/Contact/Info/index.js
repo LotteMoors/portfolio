@@ -13,13 +13,16 @@ const Info = () => {
 
   const box = {
     margin: "0 auto",
+    display:"flex",
+    justifyContent:"center",
+    alignItems:"center",
     marginBottom: "8vh",
     padding: "25px",
     borderRadius: "15px",
     color: "black",
-    minWidth: "55%",
-    width: "48vh",
-    height: "auto",
+    minWidth: "65%",
+    maxWidth: "100%",
+    height: "50vh",
     fontSize: "20px",
     fontFamily: ' "Roboto", sans serif ',
     backgroundImage: `url(${PL})`,
@@ -54,6 +57,11 @@ const Info = () => {
     flexWrap: "wrap",
   };
 
+  const link = {
+    textDecoration: "none",
+    color:"black"
+  }
+
   return (
     <div style={box}>
       <div style={spaceBox}>
@@ -81,7 +89,7 @@ const Info = () => {
           </div>
           <div style={smallBox}>
             <h3 style={ul}>E-mail:</h3>
-            <a href="mailto:lotte-moors@hotmail.com">
+            <a style={link}href="mailto:lotte-moors@hotmail.com">
               <h3> lotte-moors@hotmail.com</h3>
             </a>
           </div>

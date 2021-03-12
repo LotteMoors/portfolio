@@ -48,7 +48,7 @@ const Contact = () => {
       <Info />
       </div>
         
-      <h1 style={Containers.TitleDark}> Leave a message!</h1>
+      {/* <h1 style={Containers.TitleDark}> Leave a message!</h1> */}
       {/* <div style={background}>
       <div style={messages}> 
       <Grow in>

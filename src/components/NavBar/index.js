@@ -11,6 +11,7 @@ function NavBar() {
     color: "white",
     margin: "10px",
   };
+  
 
   return (
     <Nav>
