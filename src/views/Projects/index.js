@@ -7,13 +7,13 @@ import Cards from '../../components/Cards'
 
 const Projects = () => {
     return (
-        <>
+        <div style={{backgroundColor:'black'}}>
             <NavBar />
             <div style = {Containers.TitleDark}>
                Have a look at some of my work
             </div>
             <Cards.Projects/>            
-        </>
+        </div>
     )
 }
 

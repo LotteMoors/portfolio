@@ -25,7 +25,7 @@ export const Nav = styled.nav`
   width: 100%;
   font-size: 20px;
   min-height: auto;
-  background-color: rgba(5, 5, 5, 0.7);
+  background-color: rgba(0,0,0);
 `;
 
 export const Navbar = styled.div`

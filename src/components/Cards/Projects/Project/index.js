@@ -16,15 +16,7 @@ export const Projects = [
     "tools": ["React.js", "Node.js", "Javascript", "CSS"],
     "website": "https://lottemoors.github.io/weather/",
     "github":"https://github.com/LotteMoors/weather"
-    },
-    { 
-    "image": "https://i.ibb.co/8xTgcRN/minigames.png",       
-    "title": "Mini Games",
-    "content" : "Small game application for playing rock paper scissors and tic tac toe.",
-    "tools": ["React.js", "JavaScript","HTML", "Sass"],
-    "website": "https://lottemoors.github.io/minigames/",
-    "github":"https://github.com/LotteMoors/minigames"
-    },
+    },  
     {
     "image": "https://i.ibb.co/vsRvvLT/Register-IMG.png",    
     "title": "Register/Login",
