@@ -5,7 +5,7 @@ export const Projects = [
     "image": "https://i.ibb.co/0BCTw6c/urban-Jungle-IMG-1.png",       
     "title": "Urban Jungle",
     "content" : "Application for collecting information about plants you have & want. A community section where you can trade plants. ",
-    "tools": ["React.js", "Node.js", "Express", "MongoDB"],
+    "tools": ["React.js", "Node.js", "Express", "Redux"],
     "website": "",
     "github":""
     },
